@@ -94,3 +94,7 @@ JOIN makes ma ON mo.make_id = ma.id
 
 ---- 
 
+ALTER TABLE vehicles
+DROP COLUMN make,
+DROP COLUMN model;
+

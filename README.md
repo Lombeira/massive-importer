@@ -153,7 +153,6 @@ CREATE TABLE "models" (
       WHERE v.make = ma.name AND v.model = mo.name
   );
 
-
   ----
 
   ALTER TABLE vehicles
