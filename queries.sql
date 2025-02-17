@@ -92,6 +92,5 @@ FROM vehicles v
 JOIN models mo ON mo.id = v.model_id
 JOIN makes ma ON mo.make_id = ma.id
 
-
 ---- 
 
