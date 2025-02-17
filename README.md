@@ -152,6 +152,13 @@ CREATE TABLE "models" (
       JOIN makes ma ON mo.make_id = ma.id
       WHERE v.make = ma.name AND v.model = mo.name
   );
+
+
+  ----
+
+  ALTER TABLE vehicles
+  DROP COLUMN make,
+  DROP COLUMN model;
 ```
 
 
