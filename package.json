@@ -6,7 +6,10 @@
   "scripts": {
     "import:drivers": "node import-drivers.js",
     "import:vehicles": "node import-vehicles.js",
-    "import:ownerships": "node import-ownerships.js"
+    "import:ownerships": "node import-ownerships.js",
+    "migrations:up": "node run-migrations.js up",
+    "migrations:down": "node run-migrations.js down",
+    "setup:all": "npm run migrations:up && npm run import:drivers && npm run import:vehicles && npm run import:ownerships"
   },
   "author": "",
   "license": "ISC",
